@@ -345,8 +345,12 @@ function Cactus() {
      height:auto;
      margin: 0;
      padding: 5px;
+     transition:0.3s linear ;
 
-     
+     &:hover{
+            color:#D42755;
+         }
+        
 
      `;
     const Facebook = styled(FaFacebookF)`
@@ -354,7 +358,11 @@ function Cactus() {
      height:auto;
      padding: 5px;
      margin: 0;
+     transition:0.3s linear ;
 
+     &:hover{
+            color: #1344CF;
+         }
      
 
      `;
@@ -363,8 +371,12 @@ function Cactus() {
      height:auto;
      margin: 0;
      padding: 5px;
+     transition:0.3s linear ;
 
-     
+
+     &:hover{
+            color: #1389CF;
+         }
 
      `;
     const CirculoBody = styled(GiPlainCircle)`
